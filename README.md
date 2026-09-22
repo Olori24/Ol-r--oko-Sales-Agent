@@ -1,39 +1,30 @@
-# Ol-r--oko Sales Agent
+<div align="center">
 
-> Sales automation and agent infrastructure project.
+# Olórí-oko Sales Agent
 
-## OAE™ Engineering Standard
+**Sales agent and automation infrastructure.**
 
-This repository is maintained under the **Open Autonomous Engineer (OAE™)** engineering standard.
+[![Documentation standard](https://img.shields.io/badge/README-Premium%20Standard-111827?style=flat-square)](#documentation-standard)
+[![GitHub](https://img.shields.io/badge/GitHub-Olori24-181717?style=flat-square&logo=github)](https://github.com/Olori24)
 
-OAE™ requires:
+</div>
 
-- Security-first development
-- Explicit configuration and secret handling
-- Testable changes
-- Verification before acceptance
-- Deterministic behaviour where practical
-- Clear separation of application, automation, and deployment concerns
-- Human approval for consequential changes
-- Preservation of existing behaviour unless a change is intentional
+![Olórí-oko Sales Agent architecture overview](./docs/assets/repo-hero.svg)
 
-## Current Repository State
+> **Repository status:** Active development unless the project-specific status below says otherwise.
 
-This repository currently contains deployment workflow configuration but does not yet contain a substantive application source tree. OAE™ therefore classifies it as an **incomplete project scaffold**, not a production-ready sales agent.
+## Documentation standard
 
-No production-readiness claim is made until application code, tests, configuration, documentation, and deployment behaviour have been independently verified.
+This repository follows the premium README standard established for NSMS: clear positioning, visual orientation, architecture, security boundaries, setup, validation evidence, maturity tracking and explicit separation between shipped work and roadmap.
 
-## OAE™ Development Lifecycle
-
-```text
-Inventory → Review → Plan → Approve → Implement → Test → Verify → Re-analyze
-```
-
-## Status
-
-**Scaffold / active development**
-
-The next engineering phase should establish the intended runtime, core sales-agent responsibilities, configuration contract, tests, and deployment model before production claims are made.
+| Evidence label | Meaning |
+|---|---|
+| **IMPLEMENTED** | Present in the repository. |
+| **TESTED** | Supported by an executed test or CI result. |
+| **DEPLOYED** | A deployment target/configuration exists. |
+| **VERIFIED IN PRODUCTION** | Confirmed with production evidence. |
+| **MEASURED** | Backed by an actual measurement. |
+| **ROADMAP** | Planned work, not shipped capability. |
 
 ---
 
